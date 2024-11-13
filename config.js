@@ -17,16 +17,16 @@ global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || "false" || "mongodb+srv://mohsin:mohsin@cluster0.iauaztt.mongodb.net/?retryWrites=true&w=majority"
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
-global.github=process.env.GITHUB|| "https://github.com/efeurhobo/Empire_Md";
-global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VajVvpQIyPtUbYt3Oz0k";
-global.website=process.env.GURL || "https://whatsapp.com/channel/0029VajVvpQIyPtUbYt3Oz0k" ; 
+global.github=process.env.GITHUB|| "https://github.com/efeurhobo/";
+global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/";
+global.website=process.env.GURL || "https://whatsapp.com/channel/" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://files.catbox.moe/6ntq2i.jpg" || "https://github.com/efeurhobo/Empire_Md-main/lib/assets/suhail.jpg?raw=true" ; // SET LOGO FOR IMAGE 
-global.caption = process.env.CAPTION || global.caption || "® 𝐻𝑎𝑐𝑘𝑒𝑟 𝑂𝑛𝑙𝑦_𝑜𝑛𝑒_🥇𝐸𝑚𝑝𝑖𝑟𝑒" 
+global.caption = process.env.CAPTION || global.caption || "® 𝐻𝑎𝑐𝑘𝑒𝑟 𝑂𝑛𝑙𝑦_𝑜𝑛𝑒_🥇SAEED" 
 
 
 global.devs = "2348078582627" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2348078582627";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923120443386";
 
 
 
@@ -39,7 +39,7 @@ global.wlcm  = process.env.WELCOME || process.env.CAN_WELCOME || Math.floor(Math
 
 global.warncount = process.env.WARN_COUNT || 3
 global.disablepm = process.env.DISABLE_PM || "false"
-global.disablegroup = process.env.DISABLE_GROUPS || "false", // disable bot in groups when public mode
+global.disablegroup = process.env.DISABLE_GROUPS || "true", // disable bot in groups when public mode
 
 global.MsgsInLog = process.env.MSGS_IN_LOG|| "false" // "true"  to see messages , "log" to show logs , "false" to hide logs messages
 global.userImages= process.env.USER_IMAGES || "https://files.catbox.moe/6ntq2i.jpg" // "image" // set Image/video urls here
@@ -53,8 +53,8 @@ global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,234xxxxxxxx";
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
-global.read_status = process.env.AUTO_READ_STATUS || "false"
-global.save_status = process.env.AUTO_SAVE_STATUS || "false"
+global.read_status = process.env.AUTO_READ_STATUS || "true"
+global.save_status = process.env.AUTO_SAVE_STATUS || "true"
 global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,234xxxxxxxx";
 global.read_status_from =  process.env.READ_STATUS_FROM  ||  "234xxxxxxxx";
 
@@ -62,22 +62,22 @@ global.api_smd = "https://api-smd.onrender.com/" //  || "https://api-smd-1.verce
 global.scan = "https://suhail-md-vtsf.onrender.com";
 
 
-global.SESSION_ID = process.env.SESSION_ID  || "put_session_id"  // PUT your SESSION_ID 
+global.SESSION_ID = process.env.SESSION_ID  || "gICAgXCJ1bmFyY2hpdmVDaGF0c1wiOiBmYWxzZVxuICB9LFxuICBcImRldmljZUlkXCI6IFwiX204eDNnQmdSek9ZMldoSlJhaDh3QVwiLFxuICBcInBob25lSWRcIjogXCI4ODA1ZDMyNi01NmYzLTRmZjEtYjc3YS0yOGZlYjg1YTA0NWNcIixcbiAgXCJpZGVudGl0eUlkXCI6IHtcbiAgICBcInR5cGVcIjogXCJCdWZmZXJcIixcbiAgICBcImRhdGFcIjogW1xuICAgICAgMjAyLFxuICAgICAgMjE1LFxuICAgICAgOSxcbiAgICAgIDIwNCxcbiAgICAgIDk1LFxuICAgICAgMjUsXG4gICAgICAyMzksXG4gICAgICAxMTEsXG4gICAgICAyMjEsXG4gICAgICAyMzQsXG4gICAgICAyMzUsXG4gICAgICA2NCxcbiAgICAgIDE0MSxcbiAgICAgIDQ4LFxuICAgICAgMjU1LFxuICAgICAgMjI5LFxuICAgICAgNDMsXG4gICAgICA4MCxcbiAgICAgIDIwNixcbiAgICAgIDZcbiAgICBdXG4gIH0sXG4gIFwicmVnaXN0ZXJlZFwiOiBmYWxzZSxcbiAgXCJiYWNrdXBUb2tlblwiOiB7XG4gICAgXCJ0eXBlXCI6IFwiQnVmZmVyXCIsXG4gICAgXCJkYXRhXCI6IFtcbiAgICAgIDEwMSxcbiAgICAgIDE4NSxcbiAgICAgIDQ0LFxuICAgICAgMjE0LFxuICAgICAgMjI3LFxuICAgICAgMTExLFxuICAgICAgMTI1LFxuICAgICAgMTUzLFxuICAgICAgOTksXG4gICAgICAxNTUsXG4gICAgICAxMzksXG4gICAgICAyNDIsXG4gICAgICAxODgsXG4gICAgICA5NCxcbiAgICAgIDE1MCxcbiAgICAgIDI0MixcbiAgICAgIDI0OSxcbiAgICAgIDE0NyxcbiAgICAgIDEwMyxcbiAgICAgIDIxNVxuICAgIF1cbiAgfSxcbiAgXCJyZWdpc3RyYXRpb25cIjoge30sXG4gIFwiYWNjb3VudFwiOiB7XG4gICAgXCJkZXRhaWxzXCI6IFwiQ1BTYThaMEVFTGovMDdrR0dBSWdBQ2dBXCIsXG4gICAgXCJhY2NvdW50U2lnbmF0dXJlS2V5XCI6IFwicVR1ai9JeDJtR2c0VExZWWU2andQU2s2VFlnaHltMXFyUWZyTTlUeW9oMD1cIixcbiAgICBcImFjY291bnRTaWduYXR1cmVcIjogXCIxVXlTRTBxdXBueitvd1ZrdXlmRmd2eHpSQjlMdUwyYzM4U3phc2l3cWNMSjZvMnV5RmxaTGJUSFh5dWFuL3ZVTTBXNElLWm5GMTV6OFczMmJGRlVBdz09XCIsXG4gICAgXCJkZXZpY2VTaWduYXR1cmVcIjogXCJaYW1QSDBHajdOaG1RcHlDYnlXc3ZGUndtL0hGdXVtejYycjlZSDUvWndydkd4MWd4NVZxOHVwL0Nta3lHRDl5aEZuVEY4Tk03dHpiK3lPQis0QkxCQT09XCJcbiAgfSxcbiAgXCJtZVwiOiB7XG4gICAgXCJpZFwiOiBcIjkyMzM2MTUwMTgwMDo0QHMud2hhdHNhcHAubmV0XCIsXG4gICAgXCJuYW1lXCI6IFwi5LmIIOGOuyDvvK0g5LmIICDhjqBcIixcbiAgICBcImxpZFwiOiBcIjU1MDYyMDUxMTcyNTE4OjRAbGlkXCJcbiAgfSxcbiAgXCJzaWduYWxJZGVudGl0aWVzXCI6IFtcbiAgICB7XG4gICAgICBcImlkZW50aWZpZXJcIjoge1xuICAgICAgICBcIm5hbWVcIjogXCI5MjMzNjE1MDE4MDA6NEBzLndoYXRzYXBwLm5ldFwiLFxuICAgICAgICBcImRldmljZUlkXCI6IDBcbiAgICAgIH0sXG4gICAgICBcImlkZW50aWZpZXJLZXlcIjoge1xuICAgICAgICBcInR5cGVcIjogXCJCdWZmZXJcIixcbiAgICAgICAgXCJkYXRhXCI6IFtcbiAgICAgICAgICA1LFxuICAgICAgICAgIDE2OSxcbiAgICAgICAgICA1OSxcbiAgICAgICAgICAxNjMsXG4gICAgICAgICAgMjUyLFxuICAgICAgICAgIDE0MCxcbiAgICAgICAgICAxMTgsXG4gICAgICAgICAgMTUyLFxuICAgICAgICAgIDEwNCxcbiAgICAgICAgICA1NixcbiAgICAgICAgICA3NixcbiAgICAgICAgICAxODIsXG4gICAgICAgICAgMjQsXG4gICAgICAgICAgMTIzLFxuICAgICAgICAgIDE2OCxcbiAgICAgICAgICAyNDAsXG4gICAgICAgICAgNjEsXG4gICAgICAgICAgNDEsXG4gICAgICAgICAgNTgsXG4gICAgICAgICAgNzcsXG4gICAgICAgICAgMTM2LFxuICAgICAgICAgIDMzLFxuICAgICAgICAgIDIwMixcbiAgICAgICAgICAxMDksXG4gICAgICAgICAgMTA2LFxuICAgICAgICAgIDE3MyxcbiAgICAgICAgICA3LFxuICAgICAgICAgIDIzNSxcbiAgICAgICAgICA1MSxcbiAgICAgICAgICAyMTIsXG4gICAgICAgICAgMjQyLFxuICAgICAgICAgIDE2MixcbiAgICAgICAgICAyOVxuICAgICAgICBdXG4gICAgICB9XG4gICAgfVxuICBdLFxuICBcInBsYXRmb3JtXCI6IFwic21iYVwiLFxuICBcImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcFwiOiAxNzMxNTI2NTg4LFxuICBcIm15QXBwU3RhdGVLZXlJZFwiOiBcIkFBQUFBUEVjXCJcbn0iLAogICJhcHAtc3RhdGUtc3luYy1rZXktQUFBQUFQRWMuanNvbiI6ICJ7XCJrZXlEYXRhXCI6XCJJdFdHemwyOGIwVzZkY0tVNGM5SUJYZ0JZTTlnb3hnL0V5cHJ4OGZqcXpRPVwiLFwiZmluZ2VycHJpbnRcIjp7XCJyYXdJZFwiOjExMzY0MTQwNjgsXCJjdXJyZW50SW5kZXhcIjoxLFwiZGV2aWNlSW5kZXhlc1wiOlswLDFdfSxcInRpbWVzdGFtcFwiOlwiMTczMDg2NzIwNTU1MlwifSIKfQ=="  // PUT your SESSION_ID 
 
 
 module.exports = {
 
   menu: process.env.MENU || "", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
 
-  HANDLERS: process.env.PREFIX  || ".",
+  HANDLERS: process.env.PREFIX  || "/",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "1.0.1-developement-x",
-  caption : global.caption || "® 𝐻𝑎𝑐𝑘𝑒𝑟 𝑂𝑛𝑙𝑦_𝑜𝑛𝑒_🥇𝐸𝑚𝑝𝑖𝑟𝑒" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝐻𝑎𝑐𝑘𝑒𝑟 𝑂𝑛𝑙𝑦_𝑜𝑛𝑒_🥇𝐸𝑚𝑝𝑖𝑟𝑒 ® 』```", //*『sᴜʙsᴄʀɪʙᴇ • 𝐻𝑎𝑐𝑘𝑒𝑟 𝑂𝑛𝑙𝑦_𝑜𝑛𝑒_🥇𝐸𝑚𝑝𝑖𝑟𝑒 𝐶ℎ𝑎𝑛𝑛𝑒𝑙』*\n youtube.com/@only_one_empire"),
+  caption : global.caption || "® 𝐻𝑎𝑐𝑘𝑒𝑟 𝑂𝑛𝑙𝑦_𝑜𝑛𝑒_🥇saeed" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝐻𝑎𝑐𝑘𝑒𝑟 𝑂𝑛𝑙𝑦_𝑜𝑛𝑒_🥇𝐸𝑚𝑝𝑖𝑟𝑒 ® 』```", //*『sᴜʙsᴄʀɪʙᴇ • 𝐻𝑎𝑐𝑘𝑒𝑟 𝑂𝑛𝑙𝑦_𝑜𝑛𝑒_🥇𝐸𝑚𝑝𝑖𝑟𝑒 𝐶ℎ𝑎𝑛𝑛𝑒𝑙』*\n youtube.com/@only_one_empire"),
  
-  author : process.env.PACK_AUTHER|| "𝐻𝑎𝑐𝑘𝑒𝑟 𝑂𝑛𝑙𝑦_𝑜𝑛𝑒_🥇𝐸𝑚𝑝𝑖𝑟𝑒",
+  author : process.env.PACK_AUTHER|| "𝐻𝑎𝑐𝑘𝑒𝑟 𝑂𝑛𝑙𝑦_𝑜𝑛𝑒_🥇saeed",
   packname: process.env.PACK_NAME || "Sticker by",
-  botname : process.env.BOT_NAME  || "Empire_Md",
-  ownername:process.env.OWNER_NAME|| "𝐻𝑎𝑐𝑘𝑒𝑟 𝑂𝑛𝑙𝑦_𝑜𝑛𝑒_🥇𝐸𝑚𝑝𝑖𝑟𝑒",
+  botname : process.env.BOT_NAME  || "saeed",
+  ownername:process.env.OWNER_NAME|| "𝐻𝑎𝑐𝑘𝑒𝑟 𝑂𝑛𝑙𝑦_𝑜𝑛𝑒_🥇saeed",
 
 
   errorChat : process.env.ERROR_CHAT || "",
